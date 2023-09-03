@@ -385,11 +385,17 @@ header .icons #menu-bars {
 
 .footerText h1 {
     padding-top: 10px;
+    border-bottom: 2px solid black;
 }
 
 .footerText p {
     margin-top: 8px;
     cursor: pointer;
+    margin-bottom: 0%;
+}
+.footerText p:hover{
+    text-decoration: underline ;    
+    color: rgb(12, 60, 44);
 }
 
 /* Scroll */
